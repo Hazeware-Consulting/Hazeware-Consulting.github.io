@@ -1,12 +1,12 @@
 import { useCases, benefits } from "@/constants/content";
-import { Wrench, Factory, Home, Sprout, Check } from "lucide-react";
+import { Wrench, Wind, Sprout, Factory, Check } from "lucide-react";
 
 export function UseCases() {
   const icons = [
     <Wrench key="1" />,
-    <Factory key="2" />,
-    <Home key="3" />,
-    <Sprout key="4" />
+    <Wind key="2" />,
+    <Sprout key="3" />,
+    <Factory key="4" />
   ];
 
   return (

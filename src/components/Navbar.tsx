@@ -15,9 +15,10 @@ export default function Navbar() {
   }, []);
 
   const navLinks = [
+    { name: "Sectores", href: "#sectores" },
     { name: "Solución", href: "#solucion" },
     { name: "Métricas", href: "#caracteristicas" },
-    { name: "Dashboard", href: "#dashboard" },
+    { name: "Integraciones", href: "#integraciones" },
     { name: "Casos de uso", href: "#casos-de-uso" },
   ];
 

@@ -15,9 +15,9 @@ export default function Problem() {
     <section className="py-24 bg-white" id="problema">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">El desafío de las instalaciones a ciegas</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">El desafío de operar a ciegas</h2>
           <p className="text-lg text-slate-600">
-            Muchas instalaciones solares funcionan sin monitoreo en tiempo real, lo que se traduce en costos ocultos y pérdida de eficiencia.
+            Muchas instalaciones funcionan sin monitoreo en tiempo real, lo que se traduce en costos ocultos y pérdida de eficiencia.
           </p>
         </div>
 

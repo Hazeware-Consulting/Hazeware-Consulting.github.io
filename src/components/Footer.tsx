@@ -14,7 +14,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="max-w-sm mb-6 text-sm">
-              Soluciones de hardware IoT y software para el monitoreo inteligente de sistemas solares fotovoltaicos.
+              Soluciones de hardware IoT y software para el monitoreo y control inteligente de activos energéticos, agrícolas e industriales.
             </p>
             <div className="flex gap-4 text-sm">
               <span className="flex items-center gap-2"><MapPin className="w-4 h-4"/> Argentina</span>
@@ -24,8 +24,9 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-semibold mb-4 text-sm uppercase tracking-wider">Navegación</h4>
             <ul className="space-y-2 text-sm">
+              <li><a href="#sectores" className="hover:text-[var(--color-brand-cyan)] transition-colors">Sectores</a></li>
               <li><a href="#solucion" className="hover:text-[var(--color-brand-cyan)] transition-colors">Solución</a></li>
-              <li><a href="#producto" className="hover:text-[var(--color-brand-cyan)] transition-colors">Dispositivo</a></li>
+              <li><a href="#integraciones" className="hover:text-[var(--color-brand-cyan)] transition-colors">Integraciones</a></li>
               <li><a href="#dashboard" className="hover:text-[var(--color-brand-cyan)] transition-colors">Dashboard</a></li>
               <li><a href="#casos-de-uso" className="hover:text-[var(--color-brand-cyan)] transition-colors">Casos de Uso</a></li>
             </ul>

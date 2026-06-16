@@ -7,8 +7,8 @@ export default function Features() {
     <Zap key="zap" />,
     <Battery key="battery" />,
     <History key="history" />,
-    <Wifi key="wifi" />,
     <ThermometerSun key="thermometer" />,
+    <Wifi key="wifi" />,
     <BellRing key="bellring" />,
     <Settings key="settings" />
   ];
@@ -19,7 +19,7 @@ export default function Features() {
         <div className="mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Métricas que importan</h2>
           <p className="text-lg text-slate-600 max-w-2xl">
-            Nuestro dispositivo captura cada variable crítica para asegurar que tu sistema solar opere al máximo de su capacidad.
+            Nuestro dispositivo captura cada variable crítica para asegurar que tu sistema opere al máximo de su capacidad.
           </p>
         </div>
 

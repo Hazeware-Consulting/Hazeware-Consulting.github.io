@@ -8,8 +8,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "NUMÉTRICA | Monitoreo IoT Inteligente para Sistemas Solares",
-  description: "Conecta tus instalaciones fotovoltaicas con datos en tiempo real para medir, analizar y anticipar fallas desde cualquier lugar.",
+  title: "NUMÉTRICA | Monitoreo y Control IoT para Energía, Agro e Industria",
+  description: "Conectá tus activos solares, eólicos, eléctricos y agrícolas con datos en tiempo real para medir, controlar y anticipar fallas desde cualquier lugar.",
 };
 
 export default function RootLayout({

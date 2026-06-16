@@ -1,11 +1,9 @@
-import { Activity, Zap, Battery, Wifi, ThermometerSun, History, BellRing, Settings, Wrench, Factory, Home, Sprout } from "lucide-react";
-
 export const siteContent = {
   hero: {
-    badge: "Hardware IoT Industrial",
-    title: "Monitoreo IoT inteligente para ",
-    titleHighlight: "sistemas solares",
-    description: "NUMÉTRICA conecta tus instalaciones fotovoltaicas con datos en tiempo real para medir, analizar y anticipar fallas desde cualquier lugar.",
+    badge: "Plataforma IoT Industrial",
+    title: "Monitoreo y control IoT para ",
+    titleHighlight: "energía solar y eólica",
+    description: "NUMÉTRICA conecta tus activos —solares, eólicos, eléctricos y agrícolas— con datos en tiempo real para medir, controlar y anticipar fallas desde cualquier lugar.",
     ctaPrimary: "Solicitar demo",
     ctaSecondary: "Ver cómo funciona",
   },
@@ -19,15 +17,15 @@ export const siteContent = {
   },
   dashboard: {
     title: "Tus datos, centralizados y claros",
-    description: "Visualizá gráficos, configurá alarmas y analizá el rendimiento con una interfaz industrial.",
+    description: "Visualizá gráficos, configurá alarmas y analizá el rendimiento de cualquier activo con una interfaz industrial.",
     power: "1.99",
     powerUnit: "W",
     energy: "3.75",
     energyUnit: "kWh"
   },
   ctaFinal: {
-    title: "Convertí tu instalación solar en un sistema inteligente conectado.",
-    description: "Empezá a monitorear hoy mismo y tomá el control de tu energía.",
+    title: "Convertí tus instalaciones en sistemas inteligentes conectados.",
+    description: "Empezá a monitorear y controlar hoy mismo, sea energía, agro o industria.",
     buttonPrimary: "Solicitar una demo",
     buttonSecondary: "Hablar con NUMÉTRICA"
   }
@@ -40,7 +38,7 @@ export const problems = [
   },
   {
     title: "Pérdidas de rendimiento",
-    description: "Paneles sucios o sombras imprevistas reducen la generación, impactando el retorno de inversión."
+    description: "Equipos degradados, sombras o condiciones ambientales adversas reducen el rendimiento y el retorno de inversión."
   },
   {
     title: "Visitas innecesarias",
@@ -48,28 +46,42 @@ export const problems = [
   }
 ];
 
+export const sectors = [
+  { title: "Energía solar", desc: "Monitoreo de strings, inversores y generación fotovoltaica en tiempo real." },
+  { title: "Energía eólica", desc: "Supervisión de generación y estado operativo de aerogeneradores." },
+  { title: "Sistemas eléctricos", desc: "Tableros, consumo y calidad de energía bajo control y medición continua." },
+  { title: "Agro y cultivos", desc: "Humedad y temperatura monitoreadas para proteger y optimizar tu producción." },
+  { title: "Soluciones a medida", desc: "Diseñamos el hardware y el software para tu necesidad específica de monitoreo o control." }
+];
+
+export const integrations = [
+  { title: "Predicción de clima", desc: "Cruzamos tus datos con pronósticos meteorológicos para anticipar generación y riesgos operativos." },
+  { title: "Geolocalización", desc: "Ubicá y gestioná cada dispositivo en el mapa de toda tu operación, sin importar dónde esté." },
+  { title: "APIs y conectividad", desc: "Integrá la información con tus propios sistemas mediante APIs y notificaciones automáticas." }
+];
+
 export const features = [
   { title: "Corriente", desc: "Monitoreo preciso de la corriente inyectada o consumida." },
   { title: "Voltaje", desc: "Lecturas exactas de la tensión del sistema." },
-  { title: "Potencia instantánea", desc: "Cálculo en vivo de la potencia activa del arreglo." },
-  { title: "Energía acumulada", desc: "Registro histórico de kWh generados." },
-  { title: "Estado WiFi", desc: "Supervisión constante de conectividad y latencia." },
-  { title: "Sensores", desc: "Integración con temperatura y viento." },
-  { title: "Alertas tempranas", desc: "Notificaciones automáticas ante caídas de tensión." },
-  { title: "Gestión remota", desc: "Mantenimiento sin necesidad de visitas." }
+  { title: "Potencia instantánea", desc: "Cálculo en vivo de la potencia activa del sistema." },
+  { title: "Energía acumulada", desc: "Registro histórico de kWh generados o consumidos." },
+  { title: "Clima ambiental", desc: "Temperatura, humedad y velocidad de viento integradas." },
+  { title: "Conectividad", desc: "Supervisión constante de conectividad y latencia." },
+  { title: "Alertas tempranas", desc: "Notificaciones automáticas ante anomalías o caídas." },
+  { title: "Control remoto", desc: "Ajustá, encendé o apagá equipos a distancia, sin visitas." }
 ];
 
 export const useCases = [
-  { title: "Instaladores Solares", desc: "Ofrecé un servicio post-venta premium y proactivo." },
-  { title: "Comercios e Industrias", desc: "Asegurá el retorno de inversión de tu planta." },
-  { title: "Zonas Rurales", desc: "Controlá el estado en zonas de difícil acceso." },
-  { title: "Parques Solares", desc: "Gestión a nivel de string o inversor." }
+  { title: "Instaladores y O&M", desc: "Ofrecé un servicio post-venta premium y proactivo sobre energía solar o eólica." },
+  { title: "Parques solares y eólicos", desc: "Gestión a nivel de string, inversor o aerogenerador." },
+  { title: "Agro e invernaderos", desc: "Controlá humedad y temperatura en zonas de difícil acceso." },
+  { title: "Industria y comercios", desc: "Asegurá el retorno de inversión y la continuidad de tus activos." }
 ];
 
 export const benefits = [
   "Reducción drástica de visitas técnicas innecesarias.",
-  "Detección temprana de fallas antes de que afecten la facturación.",
-  "Mayor eficiencia energética mediante análisis de datos históricos.",
+  "Detección temprana de fallas antes de que afecten la producción.",
+  "Mayor eficiencia mediante análisis de datos históricos y de clima.",
   "Datos 100% confiables y precisos para tomar decisiones informadas.",
-  "Mejor control del retorno de inversión (ROI) del sistema fotovoltaico."
+  "Mejor control del retorno de inversión (ROI) de cada activo."
 ];

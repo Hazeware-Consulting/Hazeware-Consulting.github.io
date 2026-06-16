@@ -1,11 +1,11 @@
 "use client";
 
-import { Sun, Cpu, Cloud, LayoutDashboard } from "lucide-react";
+import { Gauge, Cpu, Cloud, LayoutDashboard } from "lucide-react";
 import { motion } from "framer-motion";
 
 export default function Solution() {
   const steps = [
-    { icon: <Sun className="w-8 h-8" />, label: "Sistema Solar" },
+    { icon: <Gauge className="w-8 h-8" />, label: "Tu activo" },
     { icon: <Cpu className="w-8 h-8" />, label: "Hardware NUMÉTRICA" },
     { icon: <Cloud className="w-8 h-8" />, label: "Nube IoT" },
     { icon: <LayoutDashboard className="w-8 h-8" />, label: "Dashboard" }
@@ -15,9 +15,9 @@ export default function Solution() {
     <section className="py-24 bg-[var(--color-brand-900)] text-white overflow-hidden" id="solucion">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-20">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">La solución integral para energía</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">La solución integral para tus activos</h2>
           <p className="text-lg text-[var(--color-brand-muted)]">
-            Hardware robusto y software avanzado trabajando en conjunto para darte el control total.
+            Hardware robusto y software avanzado trabajando en conjunto para darte el control total, sin importar qué quieras monitorear.
           </p>
         </div>
 
