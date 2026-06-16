@@ -28,23 +28,23 @@ export default function Navbar() {
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-2">
             <Activity className="h-8 w-8 text-[var(--color-brand-cyan)]" />
-            <span className="text-2xl font-bold tracking-tight text-[var(--color-brand-900)]">
+            <span className={`text-2xl font-bold tracking-tight transition-colors ${isScrolled ? "text-[var(--color-brand-900)]" : "text-white"}`}>
               NUMÉ<span className="text-[var(--color-brand-cyan)]">TRICA</span>
             </span>
           </div>
 
           <div className="hidden md:flex items-center space-x-8">
             {navLinks.map((link) => (
-              <a key={link.name} href={link.href} className="text-sm font-medium text-slate-600 hover:text-[var(--color-brand-cyan)] transition-colors">
+              <a key={link.name} href={link.href} className={`text-sm font-medium hover:text-[var(--color-brand-cyan)] transition-colors ${isScrolled ? "text-slate-600" : "text-slate-200"}`}>
                 {link.name}
               </a>
             ))}
-            <button className="bg-[var(--color-brand-900)] text-white px-5 py-2 rounded-lg font-medium hover:bg-[var(--color-brand-800)] transition-colors shadow-lg">
+            <button className={`px-5 py-2 rounded-lg font-medium transition-colors shadow-lg ${isScrolled ? "bg-[var(--color-brand-900)] text-white hover:bg-[var(--color-brand-800)]" : "bg-[var(--color-brand-cyan)] text-[var(--color-brand-900)] hover:opacity-90"}`}>
               Contacto
             </button>
           </div>
 
-          <button className="md:hidden text-slate-600" onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
+          <button className={`md:hidden transition-colors ${isScrolled ? "text-slate-600" : "text-white"}`} onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
             {isMobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
           </button>
         </div>

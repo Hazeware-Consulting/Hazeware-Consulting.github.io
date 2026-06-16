@@ -1,9 +1,9 @@
 export const siteContent = {
   hero: {
-    badge: "Plataforma IoT Industrial",
-    title: "Monitoreo y control IoT para ",
-    titleHighlight: "energía solar y eólica",
-    description: "NUMÉTRICA conecta tus activos —solares, eólicos, eléctricos y agrícolas— con datos en tiempo real para medir, controlar y anticipar fallas desde cualquier lugar.",
+    badge: "INTERNET DE LAS COSAS",
+    title: "Soluciones IoT a medida para ",
+    titleHighlight: "impulsar tu negocio",
+    description: "Hardware y software que conectan tus activos —solares, eólicos, eléctricos y agrícolas— con datos en tiempo real y los llevan hacia la Industria 4.0.",
     ctaPrimary: "Solicitar demo",
     ctaSecondary: "Ver cómo funciona",
   },
